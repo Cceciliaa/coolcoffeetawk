@@ -16,7 +16,7 @@ class DataEntry extends React.Component {
     submitHandler = (evt) => {
         evt.preventDefault();
         this.props.handlerFromParant(this.state.inputVal);
-        alert('Successfully submitted!');
+        // alert('Successfully submitted!');
         this.setState({ inputVal: '' });
     }
 

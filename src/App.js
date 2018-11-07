@@ -29,7 +29,7 @@ class App extends Component {
     clearInterval(this.timer);
     this.setState({sendTime: true, currentRunningTime: this.state.runningTime});
 
-    alert("Stopped! Total ordering time: " + this.state.runningTime + "ms");
+    // alert("Stopped! Total ordering time: " + this.state.runningTime + "ms");
   }
 
   onHandleReset = () => {
