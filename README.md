@@ -6,7 +6,7 @@ Lots of coffee shops, especially those in major cities, are having trouble with 
 
 ### Functionality
 
-The stopwatch on top allows the cashiers to record the time each customer spends on deciding their order, followed by which is an input bar for entering the number of drinks in each order. During each order, the cashiers should input both of the above data and click the "submit" button to record them. The recorded data set will be displayed in the following data form. To clear the memories, simply click the "reset" buttom at the bottom.
+The stopwatch on top allows the cashiers to record the time each customer spends on deciding their order, followed by which is an input bar for entering the number of drinks in each order. During each order, the cashiers should input both of the above data and click the "submit" button to record them. The recorded data set will be displayed in the following data form. To clear the memories, simply click the "reset" button at the bottom.
 
 ### Benefits
 
