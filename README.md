@@ -14,7 +14,7 @@ This app is very intuitive and easy to use. It demands little extra work from th
 
 ### App deployment
 
-Heroku link: https://cc-coffeetawk.herokuapp.com
+Link to the [Heroku CLI](https://cc-coffeetawk.herokuapp.com)
 
 
 ## Available Scripts
