@@ -14,4 +14,8 @@ This app is very intuitive and easy to use. It demands little extra work from th
 
 Link to the [Heroku CLI](https://cc-coffeetawk.herokuapp.com)
 
+For deployment on mobile phones, scan: 
+
+![QR code](CoffeeTawk.png) 
+
 
