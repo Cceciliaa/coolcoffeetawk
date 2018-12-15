@@ -30,9 +30,11 @@ body{
 }
 
 .card {
-  width: 20rem; 
+  width: 80%;
+  max-width: 20rem; 
   height: 7rem;
   overflow: center;
+  margin: auto, auto, auto;
 }
 
 .card-header{
@@ -44,8 +46,8 @@ body{
 
 .dataForm{
   border:1px solid black;
-  width: 90%;
-  max-width:300px;
+  width: 100%;
+  max-width:400px;
   height:250px;
   overflow:scroll;
   -webkit-overflow-scrolling: touch;
@@ -72,11 +74,11 @@ p{
 }
 
 #ist{
-  float: center; 
-  margin-left: -2rem; 
-  margin-top: -3rem; 
+  margin: auto, auto, auto;
   width: 80%;
   max-width: 20rem;
+  font-weight: 500;
+  margin-top: -3rem;
 }
 
 #reset{
@@ -84,8 +86,8 @@ p{
 }
 
 #print{
-  margin-top: -5rem;
   width: 30%;
+  margin: auto, auto, auto;
   float: center; 
   color: #000205;
   font-weight: 700;

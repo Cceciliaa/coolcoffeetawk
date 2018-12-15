@@ -24,18 +24,20 @@ class DataEntry extends React.Component {
         return (
             <center>
                 <div class="jumbotron">
-                    <form onSubmit={this.submitHandler}>
-                        <label>
-                            <center><p id='ist'>Enter the number of drinks in each order:</p></center>
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon3">Number</span>
+                    <div class="container">
+                        <form onSubmit={this.submitHandler}>
+                            <label>
+                                <center><p class="lead" id='ist'>Enter the number of drinks in each order:</p></center>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon3">Number</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="drinks_number" aria-describedby="basic-addon3" value={this.state.inputVal} onChange={this.updateOrder} />
                                 </div>
-                                <input type="text" class="form-control" id="drinks_number" aria-describedby="basic-addon3" value={this.state.inputVal} onChange={this.updateOrder} />
-                            </div>
-                        </label>
-                        <input type="submit" class="btn-success" id="print" value="Submit" />
-                    </form>
+                            </label>
+                            <input type="submit" class="btn-success" id="print" value="Submit" />
+                        </form>
+                    </div>
                 </div>
             </center>
         )

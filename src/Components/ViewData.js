@@ -19,10 +19,14 @@ class ViewData extends React.Component {
             <div class='dataForm'>
             <center>
             <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center" id="writer">
+            <span>Order Time</span> 
+            <span>Order number</span>
+            </li>
                 {this.props.records.map(function(record){
                     return <li class="list-group-item d-flex justify-content-between align-items-center" id="writer">
-                    <span>Order Time:{record.time}ms</span> 
-                    <span>Order number:{record.num} </span></li>
+                    <span>{record.time}ms</span> 
+                    <span>{record.num} </span></li>
                 })}
             </ul>
             </center>
