@@ -1,4 +1,4 @@
-## Program description
+## Project description
 
 Lots of coffee shops, especially those in major cities, are having trouble with their operating efficiency during busy hours. This is an app designed for the cashiers in coffee shops, for recording some feature data of the customers when taking orders, aiming to help coffee shop owners to identify and improve the weak links in their operations.
 
