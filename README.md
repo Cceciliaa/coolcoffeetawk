@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Program description
+This is an app designed for coffee shops, aiming to facilitate the their operations.
+
 ## Available Scripts
 
 In the project directory, you can run:

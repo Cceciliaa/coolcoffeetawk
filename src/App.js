@@ -16,6 +16,7 @@ class App extends Component {
     
     }
     this.handleData= this.handleData.bind(this);
+    this.reset= this.reset.bind(this);
   }
 
   onStopWatchStart = () => {
@@ -71,6 +72,13 @@ class App extends Component {
       this.onChangeStatus();})
     };
 
+  reset = (e) => {
+    this.setState({status: false, runningTime: 0, sendTime: false, timeVal: 0,
+      records: [], orderNum: '',
+      currentRunningTime: 0,
+      currentNumDrinks: 0})
+  }
+
 
   render() {
     return (
@@ -86,6 +94,9 @@ class App extends Component {
         </div>
         <div>
           <ViewData  records={this.state.records} />
+        </div>
+        <div>
+          <button className="btn-success" id="print" onClick={this.reset} >Reset</button>
         </div>
       </div>
     );
