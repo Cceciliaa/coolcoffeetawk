@@ -75,10 +75,10 @@ p{
 
 #ist{
   margin: auto, auto, auto;
-  width: 80%;
-  max-width: 20rem;
+  width: 90%;
+  max-width: 22rem;
   font-weight: 500;
-  margin-top: -2rem;
+  margin-top: -1.5rem;
 }
 
 #reset{
