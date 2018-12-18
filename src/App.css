@@ -4,9 +4,10 @@
 }
 
 body{
-  background-image: url('https://www.freepptbackgrounds.net/wp-content/uploads/2017/10/Coffee-Table-Backgrounds.jpg');
+  background-image: url('http://www.hebrewscoffee.co/images/coffee_grounds.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 1;
 }
 
 .CoffeeApp-logo {
@@ -109,11 +110,15 @@ p{
 
 .datahead{
   margin-top: -2rem;
+  color: rgb(142, 224, 245);
+  text-shadow: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .head{
   font-weight: 700;
+  color: rgb(28, 29, 46);
+  text-shadow: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
